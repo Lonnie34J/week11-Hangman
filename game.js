@@ -1,9 +1,14 @@
 console.log("in working condition");
 
-var myHangwords = require("./words.js")
+var myHangwords = require("./word.js");
 
 function randomWord() {
-	var currentWord = array[Math.floor(Math.random()*characters.length)];
+	var currentWord = myHangwords.hangwords[Math.floor(Math.random()*hangwords.length)];
+
+	if (err){
+		throw err;
+	}
+
 	console.log(currentWord);
 
 }

@@ -7,4 +7,4 @@
 		this.mbison = mbison;
 	}
 
-modules.exports = hangWords;
+exports = hangWords;
